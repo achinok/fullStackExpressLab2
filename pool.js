@@ -4,8 +4,8 @@ let pool = new pg.Pool({
     user: "postgres",
     password: "kelly",
     host: "localhost",
-    port: 8080,
-    database: "cart2",
+    port: 5432,
+    database: "ShopDB",
     ssl: "false"
 
 });

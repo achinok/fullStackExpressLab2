@@ -1,0 +1,29 @@
+
+    <section>
+      <ul>
+        <li ng-repeat="item in $ctrl.items track by $index"> 
+        Item: {{ item.name }} | Cost: {{ item.price | currency }}
+        <button ng-click="deleteAllItems($index)">X</button>      
+    </li>
+
+        <form ng-submit="$ctrl.addAllItems()">
+            ID:<br>
+            <input type="text" name="ID">
+            <br>
+            Product:<br>
+            <input type="text" name="Product">
+            <br>
+            Price:<br>
+            <input type="text" name="Price">
+            <br>
+            Quantity:<br>
+            <input type="text" name="Quantity">
+            <br>
+          
+            <br>
+            <input type="submit" value="Submit">
+          </form> 
+          
+
+      </ul>
+    </section>

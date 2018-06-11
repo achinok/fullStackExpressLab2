@@ -1,19 +1,19 @@
 "use strict";
 const items = [
   {
-    id: 0,
+    id: 1,
     name: "bread",
     price: 5,
     quantity: 3
   },
   {
-    id: 1,
+    id: 2,
     name: "milk",
     price: 4,
     quantity: 3
   },
   {
-    id: 2,
+    id: 3,
     name: "eggs",
     price: 2,
     quantity: 3
